@@ -1,5 +1,9 @@
 resource "azurerm_resource_group" "example" {
+<<<<<<< HEAD
   name     = "${var.prefix}-resources"
+=======
+  name     = "${var.prefix}-rg"
+>>>>>>> 0e98f04469c4fa38251d58ad09cb43664c4b26fd
   location = var.location
 }
 
@@ -65,4 +69,8 @@ resource "azurerm_virtual_machine" "main" {
   tags = {
     environment = "staging"
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 0e98f04469c4fa38251d58ad09cb43664c4b26fd
